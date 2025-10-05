@@ -2,6 +2,7 @@
   "name": "shivnarayan-shinde-portfolio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://shivnaraya-dev.github.io/shivnarayan-shinde-portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
