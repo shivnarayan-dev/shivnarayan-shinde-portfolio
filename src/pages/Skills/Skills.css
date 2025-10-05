@@ -1,0 +1,119 @@
+.h1-1-04 {
+  text-align: center;
+  text-decoration: underline;
+  margin: 30px;
+}
+
+.skills-container-04 {
+  border: 2px solid white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.h2-1-04 {
+  margin-top: 30px;
+}
+
+/* ========== Base Layout ========== */
+.f-skills-icons,
+.b-skills-icons,
+.d-skills-icons,
+.c-skills-icons,
+.t-skills-icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; /* helps icons wrap on smaller screens */
+}
+
+.skill-icon,
+.skill-icon-1 {
+  width: 35px;
+  height: 35px;
+  display: block;
+  margin: 10px auto;
+}
+
+/* ========== Responsive Design ========== */
+
+/* --- Tablets (width ≤ 1024px) --- */
+@media (max-width: 1024px) {
+  .skills-container-04 {
+    margin: 15px;
+    padding: 15px;
+  }
+
+  .skill-icon,
+  .skill-icon-1 {
+    width: 30px;
+    height: 30px;
+  }
+
+  .f-skills-icons,
+  .b-skills-icons,
+  .d-skills-icons,
+  .c-skills-icons,
+  .t-skills-icons {
+    justify-content: space-evenly;
+    gap: 15px;
+  }
+}
+
+/* --- Mobile Landscape (width ≤ 768px) --- */
+@media (max-width: 768px) {
+  .h1-1-04 {
+    font-size: 22px;
+    margin: 20px;
+  }
+
+  .skills-container-04 {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .f-skills-icons,
+  .b-skills-icons,
+  .d-skills-icons,
+  .c-skills-icons,
+  .t-skills-icons {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .skill-icon,
+  .skill-icon-1 {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+/* --- Mobile Portrait (width ≤ 480px) --- */
+@media (max-width: 480px) {
+  .h1-1-04 {
+    font-size: 20px;
+    margin: 15px;
+  }
+
+  .skills-container-04 {
+    margin: 8px;
+    padding: 8px;
+  }
+
+  .f-skills-icons,
+  .b-skills-icons,
+  .d-skills-icons,
+  .c-skills-icons,
+  .t-skills-icons {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .skill-icon,
+  .skill-icon-1 {
+    width: 25px;
+    height: 25px;
+  }
+}

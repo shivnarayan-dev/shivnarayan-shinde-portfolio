@@ -1,0 +1,141 @@
+/* ===== Base Styles (Desktop / Large Screens) ===== */
+.sub-div-01 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+    gap: 20px;
+}
+
+.icon-container-01 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.a-1-01 {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.icon-01 {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+.icon-01:hover {
+    width: 50px;
+    height: 50px;
+}
+
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+}
+
+/* ===== Tablets (up to 992px) ===== */
+@media (max-width: 992px) {
+    .sub-div-01 {
+        flex-direction: column;
+        align-items: center;
+        margin: 40px;
+        gap: 30px;
+    }
+
+    .profile-pic {
+        width: 250px;
+        height: 250px;
+    }
+
+    .a-1-01 {
+        font-size: 18px;
+    }
+
+    .icon-01 {
+        width: 28px;
+        height: 28px;
+        margin: 8px;
+    }
+
+    .icon-01:hover {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* ===== Large Mobiles (up to 600px) ===== */
+@media (max-width: 600px) {
+    .sub-div-01 {
+        flex-direction: column;
+        align-items: center;
+        margin: 25px;
+        gap: 25px;
+    }
+
+    .profile-pic {
+        width: 200px;
+        height: 200px;
+    }
+
+    .a-1-01 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .icon-container-01 {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .icon-01 {
+        width: 25px;
+        height: 25px;
+    }
+
+    .icon-01:hover {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+/* ===== Small Mobiles (up to 400px) ===== */
+@media (max-width: 400px) {
+    .sub-div-01 {
+        flex-direction: column;
+        align-items: center;
+        margin: 15px;
+        gap: 20px;
+    }
+
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+    }
+
+    .a-1-01 {
+        font-size: 14px;
+    }
+
+    .icon-01 {
+        width: 22px;
+        height: 22px;
+        margin: 6px;
+    }
+
+    .icon-01:hover {
+        width: 30px;
+        height: 30px;
+    }
+}

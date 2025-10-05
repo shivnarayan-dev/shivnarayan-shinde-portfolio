@@ -1,0 +1,136 @@
+/* Navbar.css */
+
+/* Reset some defaults */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    background: #222;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1100;
+}
+
+.menu-toggle .bar {
+    width: 28px;
+    height: 3px;
+    background: #fff;
+    margin: 4px 0;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+.nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    transition: right 0.3s;
+}
+
+.navlink {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.navlink:hover,
+.navlink.active {
+    background: #fff;
+    color: #222;
+}
+
+/* Responsive Styles */
+@media (max-width: 915px) {
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+    .nav {
+        gap: 1rem;
+    }
+    .logo h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 915px) {
+    .nav {
+        position: fixed;
+        top: 0;
+        right: -100vw;
+        height: 100vh;
+        width: 30vw;
+        background: #222;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 5rem;
+        gap: 1.5rem;
+        box-shadow: -2px 0 8px rgba(0,0,0,0.1);
+        transition: right 0.3s;
+    }
+    .nav.open {
+        right: 0;
+    }
+    .menu-toggle {
+        display: flex;
+    }
+    .logo h2 {
+        font-size: 1rem;
+    }
+}
+
+/* Hide nav links on mobile when menu is closed */
+@media (max-width: 915px) {
+    .navlink {
+        width: 100%;
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
+        border-radius: 0;
+    }
+}
+
+/* Optional: Add overlay when menu is open */
+@media (max-width: 915px) {
+    .nav.open::before {
+        content: '';
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0,0,0,0.2);
+        z-index: -1;
+    }
+}

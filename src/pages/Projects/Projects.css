@@ -1,0 +1,104 @@
+.main-div-03 {
+  padding: 40px 20px;
+  color: white;
+  text-align: center;
+}
+
+.h1-03 {
+  font-size: 32px;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+.projects-container-03 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.project-card-03 {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid white;
+  border-radius: 15px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.project-card-03:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+.project-title-03 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.project-description-03 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #ddd;
+  line-height: 1.4;
+}
+
+.project-link-03 {
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.project-link-03:hover {
+  background-color: #00c853;
+}
+
+/* ===== Responsive CSS ===== */
+
+/* Tablets (≤1024px) */
+@media (max-width: 1024px) {
+  .project-card-03 {
+    width: 250px;
+  }
+}
+
+/* Mobile Landscape (≤768px) */
+@media (max-width: 768px) {
+  .h1-03 {
+    font-size: 26px;
+  }
+
+  .projects-container-03 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card-03 {
+    width: 80%;
+  }
+}
+
+/* Mobile Portrait (≤480px) */
+@media (max-width: 480px) {
+  .project-card-03 {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .h1-03 {
+    font-size: 22px;
+  }
+
+  .project-title-03 {
+    font-size: 18px;
+  }
+
+  .project-description-03 {
+    font-size: 14px;
+  }
+}

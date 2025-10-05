@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(39, 38, 41);
+    color: white;
+    
+}
+.footer-01{
+  position: fixed;       
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;    
+  background-color: #222; 
+  color: white;          
+  padding: 10px 0;       
+  font-size: 14px;
+}

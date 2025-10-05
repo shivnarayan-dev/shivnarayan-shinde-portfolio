@@ -1,0 +1,181 @@
+/* ===== Base Styles (Desktop / Large Screens) ===== */
+.h1-1-05 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 30px;
+}
+
+.resume-container {
+    height: auto;
+    border: 2px solid white;
+    margin: 20px;
+    padding: 20px;
+}
+
+.name-and-place {
+    text-align: center;
+}
+
+.a-1-05 {
+    color: white;
+}
+
+.contact-info-05 {
+    display: flex;
+    justify-content: space-around;
+    line-height: 12px;
+    margin: 20px;
+}
+
+.h2-1-05,
+.projects-05,
+.skills-05 {
+    margin: 10px;
+}
+
+.li-1-05 {
+    margin-left: 17px;
+}
+
+.sh-05 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.li-2-05 {
+    margin-left: 27px;
+}
+
+.education-05 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h4-1-05 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.s-c-1-05 {
+    margin-left: 20px;
+    line-height: 0;
+}
+
+/* ===== Tablets (up to 992px) ===== */
+@media screen and (max-width: 992px) {
+    .resume-container {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .contact-info-05 {
+        flex-direction: column;
+        line-height: 18px;
+    }
+
+    .education-05 {
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .h1-1-05 {
+        font-size: 26px;
+        margin: 25px 0;
+    }
+
+    .h2-1-05 {
+        font-size: 22px;
+    }
+
+    .h4-1-05 {
+        padding: 8px;
+    }
+    .s-c-1-05{
+        margin-left: 20px;
+        line-height: 0;
+    }
+}
+
+/* ===== Large Mobiles (up to 600px) ===== */
+@media screen and (max-width: 600px) {
+    .h1-1-05 {
+        font-size: 22px;
+        margin: 20px 0;
+    }
+
+    .resume-container {
+        margin: 10px;
+        padding: 12px;
+    }
+
+    .contact-info-05 {
+        flex-direction: column;
+        align-items: center;
+        line-height: 20px;
+        margin: 15px 0;
+    }
+
+    .education-05 {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .s-c-1-05{
+        margin-left: 20px;
+    line-height: 0;
+    }
+
+    .a-1-05 {
+        text-align: center;
+        display: block;
+        margin: 5px 0;
+    }
+
+    .li-1-05,
+    .li-2-05 {
+        margin-left: 15px;
+    }
+
+    .skills-05,
+    .projects-05 {
+        margin: 8px;
+    }
+}
+
+/* ===== Small Mobiles (up to 400px) ===== */
+@media screen and (max-width: 400px) {
+    .h1-1-05 {
+        font-size: 20px;
+        margin: 15px 0;
+    }
+
+    .resume-container {
+        margin: 8px;
+        padding: 10px;
+    }
+
+    .contact-info-05 {
+        margin: 10px 0;
+        line-height: 22px;
+    }
+
+    .h2-1-05 {
+        font-size: 18px;
+    }
+
+    .h4-1-05 {
+        font-size: 16px;
+    }
+
+    .li-1-05,
+    .li-2-05 {
+        margin-left: 10px;
+    }
+
+    .s-c-1-05 {
+        margin-left: 20px;
+        line-height: 0;
+    }
+}

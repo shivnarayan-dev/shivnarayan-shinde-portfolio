@@ -1,0 +1,60 @@
+.h1-02 {
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+    line-height: 25px;
+    font-size: 28px; /* Default for desktop */
+}
+
+.p-1-02 {
+    text-align: center;
+    margin: 20px 40px;
+    font-size: 18px;
+    border: 2px solid white;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* ✅ Tablet (portrait and landscape) */
+@media (max-width: 992px) {
+    .h1-02 {
+        font-size: 24px;
+        margin-top: 18px;
+        line-height: 22px;
+    }
+
+    .p-1-02 {
+        font-size: 16px;
+        margin: 15px 30px;
+        padding: 18px;
+    }
+}
+
+/* ✅ Mobile (large phones, 600px and below) */
+@media (max-width: 600px) {
+    .h1-02 {
+        font-size: 20px;
+        margin-top: 15px;
+        line-height: 20px;
+    }
+
+    .p-1-02 {
+        font-size: 14px;
+        margin: 10px 15px;
+        padding: 15px;
+    }
+}
+
+/* ✅ Very small devices (small phones, 400px and below) */
+@media (max-width: 400px) {
+    .h1-02 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .p-1-02 {
+        font-size: 13px;
+        margin: 8px 10px;
+        padding: 12px;
+    }
+}
