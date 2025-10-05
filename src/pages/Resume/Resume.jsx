@@ -98,7 +98,7 @@ export default function Resume() {
               </div>
             </div>
           </div>
-          <div className="education-container">
+          <div className="education-co  ntainer">
             <h2 className='h2-1-05'>Education</h2><hr />
             <div className="education-05">
               <div className="school-collage-05">

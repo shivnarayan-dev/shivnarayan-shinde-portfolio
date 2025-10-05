@@ -83,7 +83,8 @@ export default function Skills() {
                 <FaGitAlt className='skill-icon' /><br />Git & GitHub            
               </div>
               <div className="c-skill">
-                <RiVercelLine className='skill-icon'/><br />Vercel              </div>
+                <RiVercelLine className='skill-icon'/><br />Vercel              
+              </div>
             </div>
           </div>
         </div>
