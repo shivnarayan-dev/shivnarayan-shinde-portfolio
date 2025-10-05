@@ -51,8 +51,8 @@ export default function Resume() {
                 <ul className='ul-1-05'>
                   <li className='li-1-05'>Build a Portfolio Website for showcase the my technical skills.</li>
                   <li className='li-1-05'>Display my Projects, Helps in Job Interviews, Easy to Share, It's helps me to Track my professional journey, Buuilding my online presence.</li>
-                  <li className='li-1-05'>Please Visite to the Website: "https://shivnarayan-shinde-portfolio.vercel.app/"</li>
-                  <li className='li-1-05'>To Check the Repository follow the given link: "https://github.com/shivnarayan-dev/shivnarayan-shinde-portfolio"</li>
+                  <li className='li-1-05'>Please Visite to the Website: <a href="https://shivnarayan-shinde-portfolio.vercel.app/" target="_blank" rel="noreferrer" >https://shivnarayan-shinde-portfolio.vercel.app/</a></li>
+                  <li className='li-1-05'>To Check the Repository follow the given link: <a href="https://github.com/shivnarayan-dev/shivnarayan-shinde-portfolio" target="_bank" rel="noreferrer">https://github.com/shivnarayan-dev/shivnarayan-shinde-portfolio</a></li>
                 </ul>
               </div>
             </div>
