@@ -6,7 +6,7 @@ export default function Projects() {
     {
       title: "Portfolio Website",
       description: "A personal portfolio built with React, CSS, showcasing my skills, projects, and contact information.",
-      link: "",
+      link: "https://shivnarayan-shinde-portfolio.vercel.app/",
     },
     // {
     //   title: "AI Voice Assistant (LEO)",
